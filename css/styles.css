@@ -1,0 +1,39 @@
+
+
+header {
+    background-color: #858890;
+}
+
+.main {
+    background-color: #F3F3F3;
+}
+
+.footer {
+    background-color: #858890;
+}
+
+/* Home page */
+.welcome {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.welcome_content {
+    position: absolute;
+    text-align: center;
+    left: 50px;
+    font-size: 3rem;
+}
+
+.h2_heading {
+    text-align: center;
+    font-size: 2rem;
+}
