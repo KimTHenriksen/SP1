@@ -2,6 +2,7 @@
 
 header {
     background-color: #858890;
+    height: 300px;
 }
 
 .main {
@@ -11,6 +12,72 @@ header {
 .footer {
     background-color: #858890;
 }
+
+
+/* Logo and NAV */
+.section-header,
+.container-nav {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 8px;
+}
+
+.section-header,
+.container-nav {
+    flex-direction: row;
+}
+
+
+/* Hamburger menu*/
+
+nav,
+#menu-checbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    background: #858890;
+    color: #F3F3F3;
+    padding: 8px;
+}
+
+nav {
+    position: absolute;
+    background: #858890;
+    right: 0px;
+    z-index: 1;
+}
+
+nav a {
+    display: block;
+    color: #F3F3F3;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+}
+
 
 /* Home page */
 .welcome {
@@ -33,7 +100,8 @@ header {
     font-size: 3rem;
 }
 
-.h2_heading {
+.h1_heading {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
+
