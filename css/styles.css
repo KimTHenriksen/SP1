@@ -31,10 +31,11 @@ header {
 }
 
 
+
 /* Hamburger menu*/
 
 nav,
-#menu-checbox {
+#menu-checkbox {
     display: none;
 }
 
@@ -44,23 +45,23 @@ nav,
 
 header {
     position: relative;
-    background: #858890;
+    background: #353334;
     color: #F3F3F3;
-    padding: 8px;
+    padding: 10px;
+    font-size: 1.5rem;
 }
 
 nav {
     position: absolute;
-    background: #858890;
-    right: 0px;
-    z-index: 1;
+    background: #353334;
+    left: 0px;
 }
 
 nav a {
     display: block;
     color: #F3F3F3;
-    padding: 8px 16px;
-    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1rem;
 }
 
 @media (min-width: 600px) {
@@ -77,6 +78,7 @@ nav a {
         display: inline-block;
     }
 }
+
 
 
 /* Home page */
@@ -97,7 +99,7 @@ nav a {
     position: absolute;
     text-align: center;
     left: 50px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .h1_heading {
