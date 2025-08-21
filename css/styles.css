@@ -107,3 +107,8 @@ nav a {
     font-size: 1rem;
 }
 
+
+/* Contact */
+.form__input {
+    display: block;
+}
