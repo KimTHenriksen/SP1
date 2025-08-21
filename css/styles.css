@@ -5,12 +5,45 @@ header {
     height: 300px;
 }
 
-.main {
+body {
     background-color: #F3F3F3;
 }
 
 .footer {
     background-color: #858890;
+}
+
+/* Fonts */
+
+body, 
+.h2 {
+    font-family: 'Open Sans', 'Faulty Glyphics';
+    color: #353334;
+}
+
+h1, 
+.h1_heading {
+    font-family: 'Faulty Glyphics', 'Open Sans';
+    color: #353334;
+}
+
+
+.h2_heading_kids {
+    color: #00B3FF;
+}
+
+.h2_heading_teachers {
+    color: #00C853;
+}
+
+.h2_heading_researchers {
+    color: #BA68C8;
+}
+
+/* Images */
+
+.img {
+    max-width: 300px;
 }
 
 
@@ -60,8 +93,18 @@ nav {
 nav a {
     display: block;
     color: #F3F3F3;
+    text-decoration: none;
     padding: 15px 20px;
     font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    background-color: #00B3FF;
+    color: #000000;
 }
 
 @media (min-width: 600px) {
@@ -100,6 +143,7 @@ nav a {
     text-align: center;
     left: 50px;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .h1_heading {
@@ -108,7 +152,62 @@ nav a {
 }
 
 
+
+.explore-cards_img {
+    border-radius: 60px;
+}
+
+.cta_kids {
+    background-color: #00B3FF;
+    color: #353334;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.cta_teacher {
+    background-color: #00C853;
+    color: #353334;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.cta_researchers {
+    background-color: #BA68C8;
+    color: #353334;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.news-cards_img {
+    border-radius: 60px;
+}
+
+.cta_book {
+    background-color: #858890;
+    color: #F3F3F3;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+
 /* Contact */
 .form__input {
     display: block;
 }
+
+
+
+/* Footer */
+
