@@ -42,9 +42,7 @@ h1,
 
 /* Images */
 
-.img {
-    max-width: 300px;
-}
+
 
 
 /* Logo and NAV */
@@ -155,6 +153,8 @@ nav a:hover {
 
 .explore-cards_img {
     border-radius: 60px;
+    max-width: 100%;
+    height: auto;
 }
 
 .cta_kids {
@@ -189,6 +189,8 @@ nav a:hover {
 
 .news-cards_img {
     border-radius: 60px;
+    max-width: 100%;
+    height: auto;
 }
 
 .cta_book {
