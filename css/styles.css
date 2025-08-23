@@ -1,16 +1,18 @@
 
-
-header {
-    background-color: #858890;
-    height: 300px;
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-body {
+main {
     background-color: #F3F3F3;
 }
 
-.footer {
-    background-color: #858890;
+
+
+footer {
+    background-color: #353334;
 }
 
 /* Fonts */
@@ -151,10 +153,32 @@ nav a:hover {
 
 
 
-.explore-cards_img {
-    border-radius: 60px;
-    max-width: 100%;
+.explore-cards,
+.news-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.img-text-box,
+.news-img-text-box {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.explore-cards_img,
+.news-cards_img {
+    width: 100%;
     height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
 }
 
 .cta_kids {
@@ -202,6 +226,56 @@ nav a:hover {
     padding: 8px 20px;
     border-radius: 8px;
 }
+
+/* Explore */
+
+.img-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 30px;
+}
+
+.explore-content-kids {
+    flex: 1 1 300px;
+    max-width: 600px;
+ }
+
+.kids-cards_img {
+    flex: 1 1 300px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+
+.explore-teacher-button,
+.explore-researchers-button {
+    flex: 1 1 100%;
+    margin-top: 15px;
+}
+
+.cta-teacher {
+    display: inline-block;
+    background-color: #00C853;
+    color: #000000;
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.cta-researchers {
+    display: inline-block;
+    background-color: #BA68C8;
+    color: #000000;
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 4px;
+}
+
 
 
 /* Contact */
