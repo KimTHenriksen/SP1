@@ -403,6 +403,10 @@ form fieldset {
     border: none;
 }
 
+textarea {
+    widt: 100%;
+    box-sizing: border-box;
+}
 
 /* Footer */
 
