@@ -180,7 +180,6 @@ nav a:hover {
     padding: 20px 40px;
     max-width: 700px;
     width: 100%;
-    
 }
 
 
@@ -271,49 +270,10 @@ nav a:hover {
 
 /* Explore */
 
-.img-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 30px;
-    margin-bottom: 20px;
-}
-
-
-.img-wrapper {
-    width: 100%;
-    max-width: 350px;
-    height: 180px;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.img-text-container {
-    box-sizing: border-box;
-    background-color: #F3F3F3;
-    width: 550px;
-    border: 10px solid rgba(0, 179, 255, 0.6);
-}
-
-.img-text-container_teacher {
-    border: 10px solid rgba(0, 200, 83, 0.6);
-}
-
-.img-text-container_researchers {
-    border: 10px solid rgba(186, 104, 200, 0.6);
-}
 
 
 
 
-.kids-cards_img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-display: block;
-border-radius: 8px;
-}
 
 
 
@@ -357,101 +317,77 @@ border-radius: 8px;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 40px 20px;
 }
 
-.img-text-box {
-width: 400px; 
+.exhibition-img-text-box {
+flex: 1 1 45%; 
+max-width: 500px;
 background-color: #ffffff;
 border: 2px solid #F3F3F3;
 padding: 20px;
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
+border-radius: 8px;
+box-sizing: border-box;
 }
 
 .exhibition_cards_img {
   width: 100%;
+  max-width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
+  border-radius: 4px;
 }
 
 .exhibition-content {
     padding: 1rem;
+    text-align: left;
 }
 
 @media (max-width: 600px) {
-    .exhibition-cards {
-        grid-template-columns: 1fr;
+    .exhibition-img-text-box {
+        flex: 1 1 100%;
     }
 }
 
 
-/* Visit */
+/* Visit */ /*Get involved */ /* About */
 
-.visit-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1 fr);
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
-
-.visit-content_img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-/* Get involved */
-.getinvolved-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1 fr);
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
-
-.img-text-box-getinvolved {
-    background-color: #F3F3F3;
-    padding: 1rem;
-    border-radius: 8px;
+.exploresite-cards,
+.visit-cards,
+.getinvolved-cards,
+.about-card,
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     max-width: 600px;
     margin: 0 auto;
 }
 
-.getinvolved-content_img {
+.exploresite-img-text-box,
+.visit-img-text-box,
+.getinvolved-img-text-box,
+.about-img-text-box,
+.contact-img-text-box {
     width: 100%;
-    max-height: 300px;
-    object-fit: cover;
+    max-width: 600px;
+}
+
+.kids-cards_img,
+.visit-content_img,
+.getinvolved-content_img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
     border-radius: 8px;
 }
 
-@media (max-width: 600px) {
-    .getinvolved-cards {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* About */
-.about-card {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 60px;
-}
-
-.img-text-box-about {
-    background-color: #F3F3F3;
-    padding: 2rem;
-    border-radius: 8px;
-}
 
 .about-content a {
     color: #00B3FF;
@@ -467,20 +403,6 @@ form fieldset {
     border: none;
 }
 
-.contact-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1 fr);
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
-
-@media (max-width: 600px) {
-    .contact-card {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* Footer */
 
