@@ -57,9 +57,6 @@ h2 {
     text-align: center;
 }
 
-/* Images */
-
-
 
 
 /* Logo and NAV */
@@ -75,23 +72,31 @@ h2 {
     }
 }
 
-.section-header,
-.container-nav {
-    flex: 1;
+.section-header {
     display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 8px;
+    flex-direction: row;
 }
 
-.section-header,
 .container-nav {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    flex-direction: row;
 }
+
 
 
 /* Hamburger menu*/
+
+.hamburger-icon {
+    margin-left: auto;
+    cursor: pointer;
+}
 
 nav,
 #menu-checkbox {
@@ -100,6 +105,7 @@ nav,
 
 #menu-checkbox:checked ~ nav {
     display: block;
+
 }
 
 header {
@@ -115,6 +121,7 @@ nav {
     position: absolute;
     background: #353334;
     top: 100%;
+    right: 0;
     z-index: 999;
 }
 
@@ -271,12 +278,6 @@ nav a:hover {
 /* Explore */
 
 
-
-
-
-
-
-
 .explore-teacher-button,
 .explore-researchers-button {
     flex: 1 1 100%;
@@ -404,7 +405,7 @@ form fieldset {
 }
 
 textarea {
-    widt: 100%;
+    width: 100%;
     box-sizing: border-box;
 }
 
