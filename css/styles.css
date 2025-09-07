@@ -242,12 +242,13 @@ nav a:hover {
     object-fit: cover;
 }
 
-/* CTA button Homepage */
+/* CTA button Homepage and About */
 
 .cta_kids,
 .cta_teacher, 
 .cta_researchers,
-.cta_book {
+.cta_book,
+.cta_about {
     display: inline-block;
     padding: 10px 20px;
     background-color: #00B3FF;
@@ -262,7 +263,8 @@ nav a:hover {
 .cta_kids:hover,
 .cta_teacher:hover, 
 .cta_researchers:hover,
-.cta_book:hover {
+.cta_book:hover,
+.cta_about:hover {
     background-color: #0085CC;
     color: #F3F3F3;
 }
@@ -291,18 +293,34 @@ nav a:hover {
     color: #000000;
     padding: 10px 20px; 
     text-decoration: none;
-    border-radius: 4px;
-   
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
+
+
+.cta-teacher:hover {
+    background-color: #0e5e2f;
+    color: #f3f3f3;
+}
+
 
 .cta-researchers {
     display: inline-block;
     background-color: #BA68C8;
     color: #000000;
-    padding: 10px 20px; 
+     padding: 10px 20px; 
     text-decoration: none;
-    border-radius: 4px;
- 
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-researchers:hover {
+    background-color: #3e2442;
+    color: #f3f3f3;
 }
 
 
@@ -380,7 +398,9 @@ box-sizing: border-box;
 
 .kids-cards_img,
 .visit-content_img,
-.getinvolved-content_img {
+.getinvolved-content_img,
+.contact-content_img
+ {
     max-width: 100%;
     height: auto;
     display: block;
