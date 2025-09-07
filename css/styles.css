@@ -66,6 +66,7 @@ h2 {
     height: auto;
 }
 
+
 @media (max-width: 600px) {
     .logo {
         width: 160px;
