@@ -285,6 +285,7 @@ nav a:hover {
 .explore-researchers-button {
     flex: 1 1 100%;
     margin-top: 15px;
+    text-align: center;
 }
 
 .cta-teacher {
