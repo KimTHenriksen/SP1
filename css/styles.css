@@ -280,17 +280,32 @@ nav a:hover {
 
 /* Mobile Homepage */
 @media (max-width: 600px) {
+    .page-wrapper {
+        padding: 10px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .explore-cards, 
+    .news-cards {
+        padding: 20px 10px;
+    }
+
     .img-text-box,
     .news-img-text-box {
         flex: 0 1 100%;
         width: 100%;
     }
-
-    .explore-cards, 
+    
+    .explore-cards_img,
     .news-cards_img {
         width: 100%;
         height: auto;
-        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .welcome_content {
+        padding: 20px;
     }
 }
 
