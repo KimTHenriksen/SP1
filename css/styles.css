@@ -280,25 +280,19 @@ nav a:hover {
 
 /* Mobile Homepage */
 @media (max-width: 600px) {
-    .page-wrapper {
-        padding: 10px;
-        max-width: 100%;
-        width: 100%;
-    }
-
-    .explore-cards, 
+    .explore-cards,
     .news-cards {
         flex-direction: column;
         align-items: center;
-    
+        padding: 20px 10px;
     }
 
     .img-text-box,
     .news-img-text-box {
-        flex: 0 1 100%;
         width: 100%;
+        flex: 0 1 100%;
     }
-    
+
     .explore-cards_img,
     .news-cards_img {
         width: 100%;
@@ -306,12 +300,15 @@ nav a:hover {
         object-fit: cover;
     }
 
+    .welcome {
+        padding: 20px;
+    }
+
     .welcome_content {
         padding: 20px;
-        text-align: center;
+        max-width: 100%;
     }
 }
-
 
 /* Explore */
 
