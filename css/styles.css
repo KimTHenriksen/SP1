@@ -288,7 +288,6 @@ nav a:hover {
 
     .explore-cards, 
     .news-cards {
-        padding: 20px 10px;
         flex-direction: column;
         align-items: center;
     
@@ -298,7 +297,6 @@ nav a:hover {
     .news-img-text-box {
         flex: 0 1 100%;
         width: 100%;
-        padding: 20px 10px;
     }
     
     .explore-cards_img,
