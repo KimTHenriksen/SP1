@@ -13,23 +13,17 @@ main {
 
 /* Fonts */
 
-@font-face {
-    font-family: 'Faulty Glyphics';
-    src: url('/Typography/Faculty_Glyphic/FacultyGlyphic-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 body {
-    font-family: 'Open Sans', 'Faulty Glyphics';
+    font-family: 'Open Sans', sans-serif;
     color: #353334;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Faulty Glyphics';
+    font-family: 'Playfair Display', serif;
     color: #353334;
     text-align: center;
 }
