@@ -3,11 +3,10 @@
 
 main {
     background-color: #f3f3f3;
-    padding: 40px;
+    padding: 20px;
     max-width: 1400px;
-    margin: 40px auto;
+    margin: 0 auto;
 }
-
 
 
 
@@ -162,6 +161,14 @@ nav a:hover {
 
 
 /* Home page */
+
+.page-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
 .welcome {
     background-image: url(../images/exhibition-1863344_1920.jpg);
     background-size: cover;
@@ -273,6 +280,7 @@ nav a:hover {
     .img-text-box,
     .news-img-text-box {
         flex: 0 1 100%;
+        width: 100%;
     }
 }
 
@@ -367,9 +375,16 @@ box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
+
+.exhibiton-cards {
+    padding: 20px 10px;
+    gap: 20px;
+}
     .exhibition-img-text-box {
         flex: 1 1 100%;
         max-width: 100%;
+        width: 100%;
+        padding: 15px;
     }
 }
 
