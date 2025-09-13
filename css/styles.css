@@ -164,13 +164,6 @@ nav a:hover {
 
 /* Home page */
 
-.page-wrapper {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-
 .welcome {
     background-image: url(../images/exhibition-1863344_1920.jpg);
     background-size: cover;
