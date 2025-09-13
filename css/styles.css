@@ -272,7 +272,7 @@ nav a:hover {
 @media (max-width: 600px) {
     .img-text-box,
     .news-img-text-box {
-        flex: 0 1 100%
+        flex: 0 1 100%;
     }
 }
 
@@ -369,6 +369,7 @@ box-sizing: border-box;
 @media (max-width: 600px) {
     .exhibition-img-text-box {
         flex: 1 1 100%;
+        max-width: 100%;
     }
 }
 
