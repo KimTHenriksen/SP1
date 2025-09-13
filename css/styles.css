@@ -282,6 +282,11 @@ nav a:hover {
         flex: 0 1 100%;
         width: 100%;
     }
+
+.explore-cards_img,
+.news-cards_img {
+    height: 150px;
+}
 }
 
 
