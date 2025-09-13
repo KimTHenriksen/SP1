@@ -13,6 +13,14 @@ main {
 
 /* Fonts */
 
+@font-face {
+    font-family: 'Faulty Glyphics';
+    src: url('/Typography/Faculty_Glyphic/FacultyGlyphic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: 'Open Sans', 'Faulty Glyphics';
     color: #353334;
@@ -240,8 +248,9 @@ nav a:hover {
 
 .explore-cards_img,
 .news-cards_img {
-    width: auto;
-    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
     object-fit: cover;
@@ -283,10 +292,12 @@ nav a:hover {
         width: 100%;
     }
 
-.explore-cards_img,
-.news-cards_img {
-    height: 150px;
-}
+    .explore-cards, 
+    .news-cards_img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
 }
 
 
