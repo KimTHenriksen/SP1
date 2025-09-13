@@ -243,8 +243,7 @@ nav a:hover {
 .explore-cards_img,
 .news-cards_img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 8px;
     margin-bottom: 15px;
     object-fit: cover;
