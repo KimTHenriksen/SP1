@@ -1,186 +1,259 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the homepage to Community Science Museum. Welcome to join us, we are making science accessible to all."
+    />
+    <meta
+      name="keywords"
+      content="science accessible to all, explore for kids, teachers, researchers"
+    />
+    <title>Community Science Museum</title>
+    <link href="./css/styles.css" rel="stylesheet" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="This is the homepage to Community Science Museum. Welcome to join us, we are making science accessible to all.">
-        <meta name="keywords" content="science accessible to all, explore for kids, teachers, researchers">
-        <title>Community Science Museum</title>
-        <link href="./css/styles.css" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
 
-        <link rel="icon" type="image/png" href="./images/favicon/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/svg+xml" href="./images/favicon/favicon.svg">
-        <link rel="shortcut icon" href="./images/favicon/favicon.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
-        <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/81143ac3a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
+  <body>
+    <header>
+      <div class="section-header">
+        <a href="index.html" class="logo-home">
+          <img
+            src="images/logo3csm.svg"
+            alt="Community Science Museum logo"
+            class="logo"
+          />
+        </a>
 
-        <script src="https://kit.fontawesome.com/81143ac3a0.js" crossorigin="anonymous"></script>
-    </head>
+        <div class="container-nav">
+          <input type="checkbox" id="menu-checkbox" />
+          <label
+            for="menu-checkbox"
+            class="hamburger-icon"
+            aria-label="Hamburger menu"
+          >
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </label>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" class="active">Home</a>
+                <a href="./html/explore.html">Explore</a>
+                <a href="./html/exhibitionspaces.html">Exhibition spaces</a>
+                <a href="./html/visit.html">Visit</a>
+                <a href="./html/getinvolved.html">Get involved</a>
+                <a href="./html/about.html">About</a>
+                <a href="./html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-    <body>
+    <main>
+      <section class="welcome">
+        <div class="welcome_content">
+          <p>Come join us at the</p>
+          <h1>Community Science Museum</h1>
+          <p>where we're committed to making science accessible to all.</p>
+        </div>
+      </section>
 
-        <header>
-            <div class="section-header">
+      <h2>Explore</h2>
 
+      <section class="explore-cards">
+        <div class="img-text-box">
+          <div class="explore-content">
+            <img
+              src="./images/kids2.jpg"
+              alt="A big model of an ant standing on a table in the Museum"
+              class="explore-cards_img"
+            />
+            <h3>For Kids</h3>
+            <p>Are you a young person looking to learn more about science?</p>
+          </div>
+          <br />
+          <div class="explore-text-box">
+            <a href="./html/explore.html" class="cta_kids">More info</a>
+          </div>
+        </div>
 
-                <a href="index.html" class="logo-home">
-                    <img src="images/logo3csm.svg" alt="Community Science Museum logo" class="logo">
-                 </a>
+        <div class="img-text-box">
+          <div class="explore-content">
+            <img
+              src="./images/teachers.jpg"
+              alt="A colorful model heart standing on display"
+              class="explore-cards_img"
+            />
+            <h3>For Teachers</h3>
+            <p>
+              As a community driven museum, we want to work with schools to
+              create places of learning and exploring.
+            </p>
+          </div>
+          <div class="explore-text-box">
+            <a href="./html/explore.html" class="cta_teacher">More info</a>
+          </div>
+        </div>
 
-                <div class="container-nav">
-                    <input type="checkbox" id="menu-checkbox">
-                    <label for="menu-checkbox" class="hamburger-icon" aria-label="Hamburger menu">
-                        <i class="fas fa-bars" aria-hidden="true"></i>
-                    </label>   
-                    <nav>
-                        <a href="index.html" class="active">Home</a>
-                        <a href="./html/explore.html">Explore</a>
-                        <a href="./html/exhibitionspaces.html">Exhibition spaces</a>
-                        <a href="./html/visit.html">Visit</a>
-                        <a href="./html/getinvolved.html">Get involved</a>
-                        <a href="./html/about.html">About</a>
-                        <a href="./html/contact.html">Contact</a>
-                    </nav>
-                </div>
+        <div class="img-text-box">
+          <div class="explore-content">
+            <img
+              src="./images/researchers.jpg"
+              alt="A man looking in a microscope"
+              class="explore-cards_img"
+            />
+            <h3>For Researchers</h3>
+            <p>
+              Are you looking to get involved with our team of researchers and
+              academics?
+            </p>
+          </div>
+          <br />
+          <div class="explore-text-box">
+            <a href="./html/explore.html" class="cta_researchers">More info</a>
+          </div>
+        </div>
+      </section>
 
+      <h2>News</h2>
 
-                </div>
-        </header>
+      <section class="news-cards">
+        <div class="news-img-text-box">
+          <div class="news-content">
+            <img
+              src="./images/professorofaeronautics.jpg"
+              alt="A person with an astronaut helmet sitting in a simulator machine"
+              class="news-cards_img"
+            />
+            <h3>Visiting Professor of Aeronautics</h3>
+            <p>
+              It is our pleasure to announce tha Professor Sheila Widnall from
+              the Massachusetts Institute of Technology will be delivering 3
+              lectures on the development of aeronautics and where the future
+              lies in this exciting 'space'.
+            </p>
+          </div>
+          <br />
+          <div class="explore-text-box">
+            <a href="./html/contact.html" class="cta_book">Book</a>
+          </div>
+        </div>
 
-        <main>
-        
+        <div class="news-img-text-box">
+          <div class="news-content">
+            <img
+              src="./images/nightinthemuseum.jpg"
+              alt="A view of an elephant standing in a dark museum"
+              class="news-cards_img"
+            />
+            <h3>Night in the Museum</h3>
+            <p>
+              Get your family together for an exciting night in the museum as
+              you sleep over beside dinosaurs and science displays.
+            </p>
+            <p>
+              Bring your own sleeping bag and get ready to rough it as we go
+              exploring the wonders of science.
+            </p>
+          </div>
+          <div class="explore-text-box">
+            <a href="./html/contact.html" class="cta_book">Book</a>
+          </div>
+        </div>
 
-         
-            <section class="welcome">
-                <div class="welcome_content">
-                    <p>Come join us at the</p>
-                    <h1>Community Science Museum</h1>
-                    <p>where we're committed to making science accessible to all.</p>
-                </div>
-            </section>
+        <div class="news-img-text-box">
+          <div class="news-content">
+            <img
+              src="./images/energetica.jpg"
+              alt="A young scientist working on a mechanical experiment"
+              class="news-cards_img"
+            />
+            <h3>Energetica Exhibition on Loan</h3>
+            <p>
+              On loan from the NEMO Science Museum in Amsterdam, the Energetica
+              exhibition comes to Community Science Museum.
+            </p>
+            <p>
+              It’s a series of installations that allow visitors to experience
+              the power of them.
+            </p>
+            <p>
+              From solar energy powering lighting, to ‘Wind Island’ that shows
+              how turbines are able to use and control wind to create power.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-            
-                <h2>Explore</h2>
-            
-        
-            <section class="explore-cards">
+    <footer>
+      <div class="footer-container">
+        <div class="socialmedia-footer">
+          <div class="footer-socialmedia-box">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img
+                src="./images/fb_icon.svg"
+                alt="Facebook icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
 
-                <div class="img-text-box">
-                    <div class="explore-content">
-                        <img src="./images/kids2.jpg" alt="A big model of an ant standing on a table in the Museum" class="explore-cards_img">
-                        <h3>For Kids</h3>
-                        <p>Are you a young person looking to learn more about science?</p>
-                    </div>
-                    <br>
-                    <div class="explore-text-box">
-                        <a href="./html/explore.html" class="cta_kids">More info</a>
-                    </div>
-                </div>
+          <div class="footer-socialmedia-box">
+            <a href="https://www.messenger.com/" target="_blank">
+              <img
+                src="./images/messenger-icon.svg"
+                alt="Messenger icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
 
-                <div class="img-text-box">
-                    <div class="explore-content">
-                        <img src="./images/teachers.jpg" alt="A colorful model heart standing on display" class="explore-cards_img">
-                        <h3>For Teachers</h3>
-                        <p>As a community driven museum, we want to work with schools to create places of learning and exploring.</p>
-                    </div>
-                    <div class="explore-text-box">
-                        <a href="./html/explore.html" class="cta_teacher">More info</a>
-                    </div>
-                </div>
+          <div class="footer-socialmedia-box">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="./images/insta_icon.svg"
+                alt="Instagram icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
+        </div>
 
-                <div class="img-text-box">
-                    <div class="explore-content">
-                        <img src="./images/researchers.jpg" alt="A man looking in a microscope" class="explore-cards_img">
-                        <h3>For Researchers</h3>
-                        <p>Are you looking to get involved with our team of researchers and academics?</p>
-                    </div>
-                    <br>
-                    <div class="explore-text-box">
-                        <a href="./html/explore.html" class="cta_researchers">More info</a>
-                    </div>
-                </div>
-             
-            </section>
-
-            
-                <h2>News</h2>
-            
-
-            <section class="news-cards">
-
-                <div class="news-img-text-box">
-                    <div class="news-content">
-                        <img src="./images/professorofaeronautics.jpg" alt="A person with an astronaut helmet sitting in a simulator machine" class="news-cards_img">
-                        <h3>Visiting Professor of Aeronautics</h3>
-                        <p>It is our pleasure to announce tha Professor Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting 'space'.</p>
-                    </div>
-                    <br>
-                    <div class="explore-text-box">
-                        <a href="./html/contact.html" class="cta_book">Book</a>
-                    </div>
-                </div>
-                
-                <div class="news-img-text-box">
-                    <div class="news-content">
-                        <img src="./images/nightinthemuseum.jpg" alt="A view of an elephant standing in a dark museum" class="news-cards_img">
-                        <h3>Night in the Museum</h3>
-                        <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays.</p>
-                        <p>Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-                    </div>
-                    <div class="explore-text-box">
-                        <a href="./html/contact.html" class="cta_book">Book</a>
-                    </div>
-                </div>
-
-                <div class="news-img-text-box">
-                    <div class="news-content">
-                        <img src="./images/energetica.jpg" alt="A young scientist working on a mechanical experiment" class="news-cards_img">
-                        <h3>Energetica Exhibition on Loan</h3>
-                        <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition comes to Community Science Museum.</p>
-                        <p>It’s a series of installations that allow visitors to experience the power of them.</p>
-                        <p>From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
-                    </div>
-                </div>
-
-            </section>
-        
-        </main>
-
-        <footer>
-         <div class="footer-container">
-            <div class="socialmedia-footer">
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="./images/fb_icon.svg" alt="Facebook icon" class="socialmedia-footer_img">
-                    </a>
-                </div>
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.messenger.com/" target="_blank">
-                        <img src="./images/messenger-icon.svg" alt="Messenger icon" class="socialmedia-footer_img">
-                    </a>
-                </div>
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="./images/insta_icon.svg" alt="Instagram icon" class="socialmedia-footer_img">
-                    </a>
-                </div>
-            </div>
-
-                <div class="copyright">
-                Copyright &copy; 2025 Community Sciences Museum.
-                </div>
-         </div>
-        </footer>
-
-    </body>
-
+        <div class="copyright">
+          Copyright &copy; 2025 Community Sciences Museum.
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
