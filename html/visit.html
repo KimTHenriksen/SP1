@@ -1,151 +1,202 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Visit Community Science Museum." />
+    <meta
+      name="keywords"
+      content="visit Community Science Museum, open hours, accessibility, food and drink, shop"
+    />
+    <title>Visit - Community Science Museum</title>
+    <link href="../css/styles.css" rel="stylesheet" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Visit Community Science Museum.">
-        <meta name="keywords" content="visit Community Science Museum, open hours, accessibility, food and drink, shop">
-        <title>Visit - Community Science Museum</title>
-        <link href="../css/styles.css" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../images/favicon/favicon.svg"
+    />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
 
-        <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg">
-        <link rel="shortcut icon" href="../images/favicon/favicon.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
-        <link rel="manifest" href="../images/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/81143ac3a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-        <script src="https://kit.fontawesome.com/81143ac3a0.js" crossorigin="anonymous"></script>
-    </head>
+  <body>
+    <header>
+      <div class="section-header">
+        <a href="../index.html" class="logo-home">
+          <img
+            src="../images/logo3csm.svg"
+            alt="Community Science Museum logo"
+            class="logo"
+          />
+        </a>
 
-    <body>
+        <div class="container-nav">
+          <input type="checkbox" id="menu-checkbox" />
+          <label
+            for="menu-checkbox"
+            class="hamburger-icon"
+            aria-label="Hamburger menu"
+          >
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </label>
+          <nav>
+            <ul>
+              <li>
+                <a href="../index.html">Home</a>
+                <a href="./explore.html">Explore</a>
+                <a href="./exhibitionspaces.html">Exhibiton spaces</a>
+                <a href="visit.html" class="active">Visit</a>
+                <a href="./getinvolved.html">Get involved</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Visit</h1>
 
-        <header>
-            <div class="section-header">
+      <section class="visit-cards">
+        <div class="visit-img-text-box">
+          <div class="visit-content">
+            <h2>Location</h2>
+            <p>
+              The museum is located at Haakon Sheteligs plass 10, 5007 Bergen
+            </p>
+            <img
+              src="../images/museum.jpg"
+              alt="Showing the big colorful Museum sign on the colorful wall outside of the Museum"
+              class="visit-content_img"
+            />
+          </div>
+        </div>
 
+        <div class="visit-img-text-box">
+          <div class="visit-content">
+            <h2>Admission</h2>
+            <p>The entrance is free for all.</p>
+            <p>
+              There are guided tours of the museum that leave every hour. These
+              tours are 70 NOK per person and include a handy printed guide of
+              the museum.
+            </p>
+            <p>
+              If you would like to organise a guided tour for your group of 6 or
+              more people, please contact us to arrange the tour.
+            </p>
+          </div>
+        </div>
 
-                <a href="../index.html" class="logo-home">
-                    <img src="../images/logo3csm.svg" alt="Community Science Museum logo" class="logo">
-                </a>
+        <div class="visit-img-text-box">
+          <div class="visit-content">
+            <h2>Accessibility</h2>
+            <p>
+              The museum has wheelchair accessibility ramps. It also has audio
+              guides and braille display signs for the visually impaired.
+            </p>
+          </div>
+        </div>
 
-                <div class="container-nav">
-                    <input type="checkbox" id="menu-checkbox">
-                    <label for="menu-checkbox" class="hamburger-icon" aria-label="Hamburger menu">
-                        <i class="fas fa-bars" aria-hidden="true"></i>
-                    </label>   
-                    <nav>
-                        <a href="../index.html">Home</a>
-                        <a href="./explore.html">Explore</a>
-                        <a href="./exhibitionspaces.html">Exhibiton spaces</a>
-                        <a href="visit.html" class="active">Visit</a>
-                        <a href="./getinvolved.html">Get involved</a>
-                        <a href="./about.html">About</a>
-                        <a href="./contact.html">Contact</a>
-                    </nav>
-                </div>
+        <div class="visit-img-text-box">
+          <div class="visit-content">
+            <h2>Food and drink</h2>
+            <p>
+              There is a café attached to the museum where you can get light
+              lunches, soft drinks, coffee, snacks and more.
+            </p>
+          </div>
+        </div>
 
+        <div class="visit-img-text-box">
+          <div class="visit-content">
+            <h2>Shop</h2>
+            <p>
+              Our shop offers a range of memorabilia from the museum as well as
+              great gifts and activity packs that allow you to continue to
+              explore science even after you’ve left the museum.
+            </p>
+          </div>
+        </div>
 
-                </div>
-        </header>
-        <main>
+        <div class="visit-img-text-box">
+          <div class="visit-content">
+            <h2>Hours</h2>
+            <p>Monday: Closed</p>
+            <p>Tuesday: 10:00 – 16:00</p>
+            <p>Wednesday: 10:00 – 16:00</p>
+            <p>Thursday: 10:00 – 16:00</p>
+            <p>Friday: 10:00 – 19:00</p>
+            <p>Saturday: 9:00 – 16:00</p>
+            <p>Sunday: 9:00 – 13:00</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-            
-                <h1>Visit</h1>
-            
+    <footer>
+      <div class="footer-container">
+        <div class="socialmedia-footer">
+          <div class="footer-socialmedia-box">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img
+                src="../images/fb_icon.svg"
+                alt="Facebook icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
 
-            <section class="visit-cards">
+          <div class="footer-socialmedia-box">
+            <a href="https://www.messenger.com/" target="_blank">
+              <img
+                src="../images/messenger-icon.svg"
+                alt="Messenger icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
 
-                <div class="visit-img-text-box">
-                    <div class="visit-content">
-                        <h2>Location</h2>
-                        <p>The museum is located at Haakon Sheteligs plass 10, 5007 Bergen</p>
-                        <img src="../images/museum.jpg" alt="Showing the big colorful Museum sign on the colorful wall outside of the Museum" class="visit-content_img">
-                    </div>
-                </div>
+          <div class="footer-socialmedia-box">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="../images/insta_icon.svg"
+                alt="Instagram icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
+        </div>
 
-
-                <div class="visit-img-text-box">
-                    <div class="visit-content">
-                        <h2>Admission</h2>
-                        <p>The entrance is free for all.</p>
-                        <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. </p>
-                        <p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-                    </div>
-                </div>
-
-                <div class="visit-img-text-box">
-                    <div class="visit-content">
-                        <h2>Accessibility</h2>
-                        <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
-                    </div>
-                </div>
-
-
-                <div class="visit-img-text-box">
-                    <div class="visit-content">
-                        <h2>Food and drink</h2>
-                        <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
-                    </div>
-                </div>
-
-                <div class="visit-img-text-box">
-                    <div class="visit-content">
-                        <h2>Shop</h2>
-                        <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-                    </div>
-                </div>
-
-                <div class="visit-img-text-box">
-                    <div class="visit-content">
-                        <h2>Hours</h2>
-                        <p>Monday: Closed</p>
-                        <p>Tuesday: 10:00 – 16:00</p>
-                        <p>Wednesday: 10:00 – 16:00</p>
-                        <p>Thursday: 10:00 – 16:00</p>
-                        <p>Friday: 10:00 – 19:00</p>
-                        <p>Saturday: 9:00 – 16:00</p>
-                        <p>Sunday: 9:00 – 13:00</p>
-                    </div>
-                </div>
-
-
-            </section>    
-            
-        </main>
-
-        <footer>
-         <div class="footer-container">
-            <div class="socialmedia-footer">
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="../images/fb_icon.svg" alt="Facebook icon" class="socialmedia-footer_img">
-                    </a>
-                </div>
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.messenger.com/" target="_blank">
-                        <img src="../images/messenger-icon.svg" alt="Messenger icon" class="socialmedia-footer_img">
-                    </a>
-                    </div>
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="../images/insta_icon.svg" alt="Instagram icon" class="socialmedia-footer_img">
-                    </a>
-                </div>
-            </div>
-
-                <div class="copyright">
-                Copyright &copy; 2025 Community Sciences Museum.
-                </div>
-         </div>
-        </footer>
-
-    </body>
-
+        <div class="copyright">
+          Copyright &copy; 2025 Community Sciences Museum.
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

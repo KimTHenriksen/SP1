@@ -1,147 +1,255 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The exhibiton spaces at Community Science Museum."
+    />
+    <meta
+      name="keywords"
+      content="exhibition spaces, cosmology, evolution, biology and medicine, ecology, robotics and AI"
+    />
+    <title>Exhibition spaces - Community Science Museum</title>
+    <link href="../css/styles.css" rel="stylesheet" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="The exhibiton spaces at Community Science Museum.">
-        <meta name="keywords" content="exhibition spaces, cosmology, evolution, biology and medicine, ecology, robotics and AI">
-        <title>Exhibition spaces - Community Science Museum</title>
-        <link href="../css/styles.css" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../images/favicon/favicon.svg"
+    />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
 
-        <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg">
-        <link rel="shortcut icon" href="../images/favicon/favicon.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
-        <link rel="manifest" href="../images/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/81143ac3a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-        <script src="https://kit.fontawesome.com/81143ac3a0.js" crossorigin="anonymous"></script>
-    </head>
+  <body>
+    <header>
+      <div class="section-header">
+        <a href="../index.html" class="logo-home">
+          <img
+            src="../images/logo3csm.svg"
+            alt="Community Science Museum logo"
+            class="logo"
+          />
+        </a>
 
-    <body>
+        <div class="container-nav">
+          <input type="checkbox" id="menu-checkbox" />
+          <label
+            for="menu-checkbox"
+            class="hamburger-icon"
+            aria-label="Hamburger menu"
+          >
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </label>
+          <nav>
+            <ul>
+              <li>
+                <a href="../index.html">Home</a>
+                <a href="./explore.html">Explore</a>
+                <a href="exhibitionspaces.html" class="active"
+                  >Exhibiton spaces</a
+                >
+                <a href="./visit.html">Visit</a>
+                <a href="./getinvolved.html">Get involved</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Exhibition spaces</h1>
 
-        <header>
-            <div class="section-header">
+      <section class="exhibition-cards">
+        <div class="exhibition-img-text-box">
+          <img
+            src="../images/cosmology.jpg"
+            alt="Twelve moons in a roow, in gray and red color"
+            class="exhibition_cards_img"
+          />
+          <div class="exhibition-content">
+            <h2>Cosmology</h2>
+            <p>
+              Explore the wonders of our cosmos. Our fantastic exhibition, ‘The
+              Sky Above Us’, explores the night sky and what we can see and know
+              about the universe around us.
+            </p>
+            <p>
+              We’ll locate the various constellations and galaxies that can be
+              seen and learn a bit about the early navigators who used the stars
+              to travel by.
+            </p>
+            <p>
+              Follow the journey of our solar exploration: from early Arab
+              traders, to Galileo’s telescope, to the latest exploration of the
+              planets in our solar system.
+            </p>
+          </div>
+        </div>
 
+        <div class="exhibition-img-text-box">
+          <img
+            src="../images/william-bout-264826.jpg"
+            alt="A net looking like a spiderweb symbolizing the impact humans are having on the planet"
+            class="exhibition_cards_img"
+          />
+          <div class="exhibition-content">
+            <h2>Ecology</h2>
+            <p>
+              As we learn more and more of the impact humans are having on the
+              planet, the more important it becomes that scientists explore how
+              to create a sustainable future not just for humans but for the
+              whole planet.
+            </p>
+            <p>
+              In our ecology section of the museum, we unpack the dangers we
+              currently face including global warming, extinction of species,
+              and pollution. But we also focus on the positive ways we can all
+              contribute to a brighter future.
+            </p>
+          </div>
+        </div>
 
-                <a href="../index.html" class="logo-home">
-                    <img src="../images/logo3csm.svg" alt="Community Science Museum logo" class="logo">
-                </a>
+        <div class="exhibition-img-text-box">
+          <img
+            src="../images/evolution.jpg"
+            alt="A big dinosaur skeleton hanging from the roof in the Museum"
+            class="exhibition_cards_img"
+          />
+          <div class="exhibition-content">
+            <h2>Evolution</h2>
+            <p>
+              For centuries, philosophers and scientists have wrestled with the
+              question of our origins.
+            </p>
+            <p>
+              Where do we come from and how did we get here? Since Darwin
+              proposed his theory of evolution we have had a framework for
+              exploring and understanding our place in this world.
+            </p>
+            <p>
+              Discover the origins of life on this planet and how the species we
+              know today have evolved our time. You can also take some time to
+              meet a few of the creatures who didn’t survive, including our
+              Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+            </p>
+          </div>
+        </div>
 
-                <div class="container-nav">
-                    <input type="checkbox" id="menu-checkbox">
-                    <label for="menu-checkbox" class="hamburger-icon" aria-label="Hamburger menu">
-                        <i class="fas fa-bars" aria-hidden="true"></i>
-                    </label>   
-                    <nav>
-                        <a href="../index.html">Home</a>
-                        <a href="./explore.html">Explore</a>
-                        <a href="exhibitionspaces.html" class="active">Exhibiton spaces</a>
-                        <a href="./visit.html">Visit</a>
-                        <a href="./getinvolved.html">Get involved</a>
-                        <a href="./about.html">About</a>
-                        <a href="./contact.html">Contact</a>
-                    </nav>
-                </div>
+        <div class="exhibition-img-text-box">
+          <img
+            src="../images/biologyandmedicine.jpg"
+            alt="An old lab with medical glass standing in row"
+            class="exhibition_cards_img"
+          />
+          <div class="exhibition-content">
+            <h2>Biology and Medicine</h2>
+            <p>
+              From micro-organisms to the human body, major breakthroughs in
+              biology are offering us unique insights into the great wonders of
+              the tiny world.
+            </p>
+            <p>
+              For many people their life expectancy is much longer and their
+              quality of life much improved, thanks to the growth of our
+              understanding of medicine.
+            </p>
+            <p>
+              Over a series of exhibits we explore the history of medicine and
+              take a look at some major breakthroughs including the discovery of
+              penicillin and the first heart transplant.
+            </p>
+            <p>
+              Many of our great medicinal discoveries have come not only from
+              the lab, but also from observing animals in the wild. Often our
+              fellow creatures have beat us to it.
+            </p>
+          </div>
+        </div>
 
+        <div class="exhibition-img-text-box">
+          <img
+            src="../images/roboticsandai.jpg"
+            alt="A child wearing VR headset exploring AI"
+            class="exhibition_cards_img"
+          />
+          <div class="exhibition-content">
+            <h2>Robotics and AI</h2>
+            <p>
+              From useful home applications of AI to industrial uses of
+              robotics, the future is here. You can even say hello and shake the
+              hand of Rob the Robot.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-                </div>
-        </header>
-        <main>
+    <footer>
+      <div class="footer-container">
+        <div class="socialmedia-footer">
+          <div class="footer-socialmedia-box">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img
+                src="../images/fb_icon.svg"
+                alt="Facebook icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
 
-          
-                <h1>Exhibition spaces</h1>
-            
+          <div class="footer-socialmedia-box">
+            <a href="https://www.messenger.com/" target="_blank">
+              <img
+                src="../images/messenger-icon.svg"
+                alt="Messenger icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
 
-            <section class="exhibition-cards">
+          <div class="footer-socialmedia-box">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="../images/insta_icon.svg"
+                alt="Instagram icon"
+                class="socialmedia-footer_img"
+              />
+            </a>
+          </div>
+        </div>
 
-                <div class="exhibition-img-text-box">
-                    <img src="../images/cosmology.jpg" alt="Twelve moons in a roow, in gray and red color" class="exhibition_cards_img">
-                    <div class="exhibition-content">
-                        <h2>Cosmology</h2>
-                        <p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us.</p>
-                        <p>We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.</p>
-                        <p>Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</p>
-                    </div>
-                </div>
-                
-                <div class="exhibition-img-text-box">
-                    <img src="../images/william-bout-264826.jpg" alt="A net looking like a spiderweb symbolizing the impact humans are having on the planet" class="exhibition_cards_img">
-                    <div class="exhibition-content">
-                        <h2>Ecology</h2>
-                        <p>As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.</p>
-                        <p>In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future.</p>
-                    </div>
-                </div>
-
-                <div class="exhibition-img-text-box">
-                    <img src="../images/evolution.jpg" alt="A big dinosaur skeleton hanging from the roof in the Museum" class="exhibition_cards_img">
-                    <div class="exhibition-content">
-                        <h2>Evolution</h2>
-                        <p>For centuries, philosophers and scientists have wrestled with the question of our origins.</p>
-                        <p>Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.</p>
-                        <p>Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.</p>
-                    </div>
-                </div>
-
-                <div class="exhibition-img-text-box">
-                    <img src="../images/biologyandmedicine.jpg" alt="An old lab with medical glass standing in row" class="exhibition_cards_img">
-                    <div class="exhibition-content">
-                        <h2>Biology and Medicine</h2>
-                        <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. </p>
-                        <p>For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine.</p>
-                        <p>Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant. </p>
-                        <p>Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.</p>
-                    </div>
-                </div>
-
-
-                <div class="exhibition-img-text-box">
-                    <img src="../images/roboticsandai.jpg" alt="A child wearing VR headset exploring AI" class="exhibition_cards_img">
-                    <div class="exhibition-content">
-                        <h2>Robotics and AI</h2>
-                        <p>From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
-                    </div>
-                </div>
-
-
-            </section>
-            
-        </main>
-
-        <footer>
-         <div class="footer-container">
-            <div class="socialmedia-footer">
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="../images/fb_icon.svg" alt="Facebook icon" class="socialmedia-footer_img">
-                    </a>
-                </div>
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.messenger.com/" target="_blank">
-                        <img src="../images/messenger-icon.svg" alt="Messenger icon" class="socialmedia-footer_img">
-                    </a>
-                    </div>
-
-                <div class="footer-socialmedia-box">
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="../images/insta_icon.svg" alt="Instagram icon" class="socialmedia-footer_img">
-                    </a>
-                </div>
-            </div>
-
-                <div class="copyright">
-                Copyright &copy; 2025 Community Sciences Museum.
-                </div>
-         </div>
-        </footer>
-
-    </body>
-
+        <div class="copyright">
+          Copyright &copy; 2025 Community Sciences Museum.
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
