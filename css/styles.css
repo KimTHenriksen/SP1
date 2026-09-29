@@ -1,5 +1,15 @@
+:root {
+  --color-dark: #353334;
+  --color-light: #f3f3f3;
+  --color-blue: #00b3ff;
+  --color-green: #00c853;
+  --color-purple: #ba68c8;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
 main {
-  background-color: #f3f3f3;
+  background-color: var(--color-light);
   padding: 20px;
   max-width: 1400px;
   margin: 0 auto;
@@ -9,27 +19,27 @@ main {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #353334;
+  color: var(--color-dark);
 }
 
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
-  color: #353334;
+  color: var(--color-dark);
   text-align: center;
 }
 
 .kids-section {
-  color: #00b3ff;
+  color: var(--color-blue);
 }
 
 .teacher-section {
-  color: #00c853;
+  color: var(--color-green);
 }
 
 .researchers-section {
-  color: #ba68c8;
+  color: var(--color-purple);
 }
 
 .explore-section,
@@ -94,8 +104,8 @@ nav,
 
 header {
   position: relative;
-  background: #353334;
-  color: #f3f3f3;
+  background: var(--color-dark);
+  color: var(--color-light);
   padding: 10px;
   font-size: 1.5rem;
   margin-bottom: 60px;
@@ -103,7 +113,7 @@ header {
 
 nav {
   position: absolute;
-  background: #353334;
+  background: var(--color-dark);
   top: 100%;
   right: 0;
   z-index: 999;
@@ -122,7 +132,7 @@ nav li {
 
 nav a {
   display: block;
-  color: #f3f3f3;
+  color: var(--color-light);
   text-decoration: none;
   padding: 15px 20px;
   font-size: 1rem;
@@ -131,13 +141,13 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #00b3ff;
-  color: #000000;
+  background-color: var(--color-blue);
+  color: var(--color-black);
 }
 
 .active {
-  background-color: #00b3ff;
-  color: #000000;
+  background-color: var(--color-blue);
+  color: var(--color-black);
 }
 
 @media (min-width: 600px) {
@@ -177,7 +187,7 @@ nav a:hover {
 
 .welcome_content {
   background-color: rgba(53, 51, 52, 0.8);
-  color: #f3f3f3;
+  color: var(--color-light);
   text-align: center;
   font-weight: bold;
   border-radius: 12px;
@@ -187,7 +197,7 @@ nav a:hover {
 }
 
 .welcome h1 {
-  color: #00b3ff;
+  color: var(--color-blue);
   text-align: center;
   font-size: 2.5rem;
 }
@@ -213,7 +223,7 @@ nav a:hover {
 .news-img-text-box {
   flex: 0 1 calc(33.333% - 20px);
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   border-radius: 8px;
   padding: 20px;
   display: flex;
@@ -244,8 +254,8 @@ nav a:hover {
 .cta_about {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #00b3ff;
-  color: #353334;
+  background-color: var(--color-blue);
+  color: var(--color-dark);
   text-decoration: none;
   border-radius: 5px;
   margin-top: 10px;
@@ -260,7 +270,7 @@ nav a:hover {
 .cta_book:hover,
 .cta_about:hover {
   background-color: #0085cc;
-  color: #f3f3f3;
+  color: var(--color-light);
 }
 
 /* Mobile Homepage */
@@ -306,8 +316,8 @@ nav a:hover {
 
 .cta-teacher {
   display: inline-block;
-  background-color: #00c853;
-  color: #000000;
+  background-color: var(--color-green);
+  color: var(--color-black);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -318,13 +328,13 @@ nav a:hover {
 
 .cta-teacher:hover {
   background-color: #0e5e2f;
-  color: #f3f3f3;
+  color: var(--color-light);
 }
 
 .cta-researchers {
   display: inline-block;
-  background-color: #ba68c8;
-  color: #000000;
+  background-color: var(--color-purple);
+  color: var(--color-black);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -335,7 +345,7 @@ nav a:hover {
 
 .cta-researchers:hover {
   background-color: #3e2442;
-  color: #f3f3f3;
+  color: var(--color-light);
 }
 
 .img-text-container,
@@ -359,8 +369,8 @@ nav a:hover {
 .exhibition-img-text-box {
   flex: 1 1 45%;
   max-width: 500px;
-  background-color: #ffffff;
-  border: 2px solid #f3f3f3;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-light);
   padding: 20px;
   border-radius: 8px;
   box-sizing: border-box;
@@ -431,7 +441,7 @@ nav a:hover {
 /* About */
 
 .about-content a {
-  color: #00b3ff;
+  color: var(--color-blue);
   text-decoration: none;
 }
 
@@ -458,7 +468,7 @@ textarea {
 /* Footer */
 
 footer {
-  background-color: #353334;
+  background-color: var(--color-dark);
   padding: 40px;
   text-align: center;
 }
@@ -477,5 +487,5 @@ footer {
 }
 
 .copyright {
-  color: #f3f3f3;
+  color: var(--color-light);
 }
